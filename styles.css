@@ -1,0 +1,77 @@
+/*You can change the hexidecimal number to change the colors on your nonlinear story.  
+You can also change the font family, font sizes, font styles, or alignments*/
+
+/*overall style*/
+div {
+    width: 75%;
+	margin: 0 auto;
+}
+
+body {
+	background: #F5D89E; /*to change, look up color codes on Adobe Color, Cooler, or Photoshop*/
+	font-family: Tahoma, Geneva, sans-serif; /*to change, look up other font families*/
+}
+/*heading style*/
+h1 {
+	font-family: "Rubik Glitch", system-ui;
+  	font-weight: 400;
+  	font-style: normal;
+	color: #050504; 
+	text-align: center; 
+	font-size: 32px; /*you can change all font sizes by changing the pixels*/
+}
+/*image style*/
+img {
+	height:350px; /*change height of image*/
+    display: block;
+    margin: auto;
+    /* border:5px solid #5b5356;  */
+	/* border-style: dashed; */
+}
+
+/*paragraph style*/
+p {	
+	font-size: 16px;
+	text-align: center; /*may change this to left, right or center*/
+	color: #5c6061; /*change this to the hexidecimal number for the paragraph text color you prefer*/
+}
+/*unvisited link style*/
+a {
+	color: #FF0078;
+    text-align: center;
+}
+/*hovered over link style*/
+a:hover {
+	color: #2d14ed; 
+}
+/*visited link style*/
+a:visited {
+	color: #b2125d; 
+}
+/*list styles*/
+ul {
+   display: block;
+    margin:auto; 
+    text-align: left;
+	padding-left: 35%;
+  	list-style-position: inside;
+}
+
+li {
+	font-size: 16px;
+	font-style:italic; 
+	color: #FF0078;
+	}
+
+
+.rubik-glitch-regular {
+  font-family: "Rubik Glitch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+form {
+	font-size: 16px;
+	text-align: center; /*may change this to left, right or center*/
+	color: #5c6061; /*change this to the hexidecimal number for the paragraph text color you prefer*/
+}
